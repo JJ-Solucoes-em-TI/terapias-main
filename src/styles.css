@@ -1,14 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 /********** Template CSS **********/
 :root {
-    --primary: #0463FA;
+    --primary: #10cdda;
     --light: #EFF5FF;
     --dark: #1B2C51;
 }
 
 /*Criei body*/
 body{
-    background-color: rgb(29, 70, 236);
+    background-color: rgb(217, 248, 248);
 }
 
 .fw-medium {
