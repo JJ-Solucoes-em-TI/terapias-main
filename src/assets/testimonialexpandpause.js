@@ -31,3 +31,17 @@ $(document).ready(function(){
         $('.testimonial-text').css('max-height', '50px');
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    var expandLinks = document.querySelectorAll('.expand-link');
+
+    expandLinks.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+            var expandedText = this.previousElementSibling;
+            expandedText.style.display = (expandedText.style.display === 'none') ? 'block' : 'none';
+            this.textContent = (expandedText.style.display === 'none') ? '...mais' : '...menos';
+        });
+    });
+});

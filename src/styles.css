@@ -607,10 +607,13 @@ body{
 
 
 
-
+/*criei exoand textimonials*/
         .testimonial-text {
             max-height: 100px;
-            min-height: 150px;
+            min-height: 220px;
             overflow: hidden;
             transition: max-height 0.5s ease;
+        }
+        .expand-link{
+            color: #007bff;
         }
